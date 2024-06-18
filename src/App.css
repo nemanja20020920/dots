@@ -1,0 +1,29 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #536878;
+}
+
+.dot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.btn-wrapper {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn-wrapper > button:first-child {
+  margin-right: 10px;
+}
+
+.btn-wrapper > button:last-child {
+  margin-left: 10px;
+}
